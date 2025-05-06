@@ -8,7 +8,15 @@ public:
     friend void setName(mahasiswa &a, string);
 };
 
-void setNama(mahasiswa &a, string b){
-    
+void setName(mahasiswa &a, string b){
+    a.nama = b;
+    cout << a.nama;
 
+}
+
+int main()
+{
+    mahasiswa joko;
+    setNama(joko, "Kairi Kumar");
+    return 0;
 }
