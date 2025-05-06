@@ -15,5 +15,7 @@ public:
         cin >> Lebar;
     }
 
-    
+    int luasPp(int a, int b){
+        return a * b;
+    }
 }
