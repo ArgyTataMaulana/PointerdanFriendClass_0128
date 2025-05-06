@@ -18,4 +18,10 @@ public:
     int luasPp(int a, int b){
         return a * b;
     }
+    // lingkaran ol
+};
+
+class Lingkaran
+{
+    
 }
