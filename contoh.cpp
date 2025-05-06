@@ -4,5 +4,8 @@ using namespace std;
 
 class PersegiPanjang
 {
+    public: // akses modifier
+    int Panjang, Lebar;
+
 
 }
