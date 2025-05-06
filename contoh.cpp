@@ -23,5 +23,11 @@ public:
 
 class Lingkaran
 {
-    
-}
+public: 
+    int jariJari;
+
+    void input (){
+        cout << "Masukkan Jari-jari : ";
+        cin >> jariJari;
+    }
+};
