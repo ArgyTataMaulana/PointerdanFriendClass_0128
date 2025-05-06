@@ -30,4 +30,8 @@ public:
         cout << "Masukkan Jari-jari : ";
         cin >> jariJari;
     }
+
+    int LuasLingkaran(int r){
+        return 3.14 * r * r;
+    }
 };
