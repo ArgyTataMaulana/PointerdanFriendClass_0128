@@ -17,6 +17,6 @@ void setName(mahasiswa &a, string b){
 int main()
 {
     mahasiswa joko;
-    setNama(joko, "Kairi Kumar");
+    setName(joko, "Kairi Kumar");
     return 0;
 }
